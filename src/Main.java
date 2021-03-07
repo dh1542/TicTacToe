@@ -1,9 +1,20 @@
 public class Main {
     public static void main(String[] args){
-        char [][] val = new char[3][3];
-        Board b = new Board(val);
 
-        b.print_newBoard();
+        Board b= new Board();
+        b.setValues(new char[3][3]);
+
+
+
+        b.print_Board();
+
+        int one = 0;
+        int two = 0;
+
+
+
+
+
 
 
 
