@@ -11,7 +11,7 @@ public class Board {
     }
 
     public void print_newBoard(){
-        System.out.println("   0 1 2");
+        System.out.println("   0  1  2");
         System.out.println("-------------");
         System.out.println("0 |" + " " + values[0][0] + " " + values[1][0] + " " + values[2][0] + " |");
         System.out.println("1 |" + " " + values[0][1] + " " + values[1][1] + " " + values[2][1] + " |");
